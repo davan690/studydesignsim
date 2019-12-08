@@ -205,3 +205,4 @@ str(chunks)
 for(i in 1:nchunks){
 write.list(devall[chunks[[i]]],file=paste("simresults",i,".csv",sep=""),row.names=FALSE)
 }
+
