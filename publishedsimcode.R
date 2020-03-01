@@ -1,7 +1,7 @@
 ##### R libraries required
-library(truncnorm)
-library(doParallel) ####if you can run in parallel (i.e. your machine has enough cores)
-library('erer') ### for writing output at the end
+library("truncnorm")
+# library("doParallel") ####if you can run in parallel (i.e. your machine has enough cores)
+# library("erer") ### for writing output at the end
 
 #### First read in empirical dataset which has parameter values
 paramdis = read.csv(choose.files(),stringsAsFactors = FALSE)
